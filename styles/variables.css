@@ -1,0 +1,34 @@
+:root {
+    --color-white: #FFFFFF;
+    --color-black: #0F1F1C;
+    --color-black-lighter: rgba(15, 31, 28, 0.5);
+
+    --color-bg-light: #F6F6F6;
+    --color-bg-dark: #000000;
+
+    --color-gray-light: #C4C4C4;
+    --color-gray-medium: rgba(255, 255, 255, 0.5);
+    --color-gray-dark: rgba(255, 255, 255, 0.25);
+
+
+    --color-orange: #FF794E;
+
+    --gradient-header: linear-gradient(132.05deg, #428E5F -17.38%, #112120 78.4%), #204434;
+    --gradient-button-main: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%), #FFFFFF;
+    --gradient-button-footer: linear-gradient(0deg, #FF7C4E, #FF7C4E), #C4C4C4;
+
+
+    --font-family-poppins-b: Poppins-B, sans-serif;
+    --font-family-poppins-m: Poppins-M, sans-serif;
+    --font-family-poppins-r: Poppins-R, sans-serif;
+    --font-family-poppins-sb: Poppins-SB, sans-serif;
+
+
+    --animation-speed: .3s;
+    --animation-func: ease;
+    --animation: var(--animation-speed) var(--animation-func);
+
+
+    --container-width: 1270px;
+    --container-padding: 15px;
+}

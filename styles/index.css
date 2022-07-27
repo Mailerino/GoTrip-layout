@@ -1,0 +1,27 @@
+@import url(./reset.css);
+@import url(./fonts.css);
+@import url(./variables.css);
+@import url(./buttons.css);
+
+body {
+    font-family: var(--font-family-poppins-r);
+    background-color: var(--color-bg-light);
+    color: var(--color-black);
+}
+
+.none {
+    display: none !important;
+}
+
+.container {
+    max-width: var(--container-width);
+    padding: 0 var(--container-padding);
+    margin: 0 auto;
+}
+
+.container-right {
+    padding-left: calc( (100% - var(--container-width))/2 + var(--container-padding) );
+}
+.container-left {
+    padding-right: calc( (100% - var(--container-width))/2 + var(--container-padding) );
+}
