@@ -1,0 +1,10 @@
+.badge {
+    font-size: 18px;
+    font-family: var(--font-family-poppins-m);
+    border-radius: 15px;
+    background: var(--color-gray-dark);
+
+    padding: 12px 30px;
+    display: inline-block;
+    margin-bottom: 7px;
+}
