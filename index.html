@@ -1,56 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>GoTrip Main</title>
-		<link rel="stylesheet" href="./styles/index.css" />
-	</head>
-	<body>
-		<header class="header none">
-			<div class="container">
-				<div class="header__top">
-					<nav class="nav">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GoTrip Main</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+      integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
 
-						<div class="nav__logo">
-							<h2 class="logo"><a href="#!">GoTrip</a></h2>
-						</div>
+    <header class="header none">
+      <div class="container">
+        <div class="header__top">
+          <nav class="nav">
+            <div class="nav__logo">
+              <h2 class="logo"><a href="#!">GoTrip</a></h2>
+            </div>
 
-						<ul class="nav__links">
-							<li><a href="#!" class="active">Home</a></li>
-							<li><a href="#!">Services</a></li>
-							<li><a href="#!">Pricing</a></li>
-							<li><a href="#!">Contact</a></li>
-						</ul>
+            <ul class="nav__links">
+              <li><a href="#!" class="active">Home</a></li>
+              <li><a href="#!">Services</a></li>
+              <li><a href="#!">Pricing</a></li>
+              <li><a href="#!">Contact</a></li>
+            </ul>
 
-						<ul class="nav__login">
-							<li><a href="#!">Sign up</a></li>
-							<li><a href="#!" class="button-secondary">Login</a></li>
-						</ul>
+            <ul class="nav__login">
+              <li><a href="#!">Sign up</a></li>
+              <li><a href="#!" class="button-secondary">Login</a></li>
+            </ul>
+          </nav>
+        </div>
 
-					</nav>
-				</div>
-				
-				<div class="header__row">
-					
-					<div class="header__content">
-						<div class="header__badge badge">explore the world</div>
-						<h1 class="header__title">Explore The Natural Beauty Of Halmahera With Us</h1>
-						<div class="header__text">
-							<p>explore the beauty of god's earth in a beautiful forest and have fun</p>
-						</div>
-						<a href="#!" class="header__btn button-main">Explore Now</a>
-					</div>
-	
-					<div class="header__image">
-						<img src="./images/photos/header-image.png" alt="Traveler-Image">
-					</div>
+        <div class="header__row">
+          <div class="header__content">
+            <div class="header__badge badge">explore the world</div>
+            <h1 class="header__title">
+              Explore The Natural Beauty Of Halmahera With Us
+            </h1>
+            <div class="header__text">
+              <p>
+                explore the beauty of god's earth in a beautiful forest and have fun
+              </p>
+            </div>
+            <a href="#!" class="header__btn button-main">Explore Now</a>
+          </div>
 
-				</div>
-			</div>
-		</header>
+          <div class="header__image">
+            <img src="./images/photos/header-image.png" alt="Traveler-Image" />
+          </div>
+        </div>
+      </div>
+    </header>
 
-		<script src="./js/main.js"></script>
-	</body>
+    <main class="main">
+      <section class="destinations">
+        <div class="container-right">
+          <div class="destinations__row">
+            <div class="destinations__content">
+              <h2 class="destinations__title">
+                <span>Choice Of</span>
+                Destinations
+              </h2>
+
+              <div class="destinations__text">
+                <p>
+                  explore the beauty of god's earth in a beautiful forest and have fun
+                </p>
+              </div>
+
+              <a href="#!" class="destinations__button button-main">Explore Now</a>
+            </div>
+
+            <div class="destinations__slider">
+
+              <div class="slider">
+
+                <div class="owl-carousel">
+                  <img class="slider__item" src="./images/photos/slider-image1.jpg" alt="Slider-Image" />
+                  <img class="slider__item" src="./images/photos/slider-image2.jpg" alt="Slider-Image" />
+                  <img class="slider__item" src="./images/photos/slider-image3.jpg" alt="Slider-Image" />
+                </div>
+
+                <button class="button-slider slider__button--prev">
+                  <img src="./images/icons/icon-arrow.svg" alt="">
+                </button>
+
+                <button class="button-slider slider__button--next">
+                  <img src="./images/icons/icon-arrow.svg" alt="">
+                </button>
+                
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="customers none">
+        <div class="container"></div>
+      </section>
+
+      <section class="cta none">
+        <div class="container"></div>
+      </section>
+    </main>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./js/main.js"></script>
+  </body>
 </html>

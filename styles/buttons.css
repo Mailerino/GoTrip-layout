@@ -34,3 +34,27 @@
     position: relative;
     top: 1px;
 }
+
+.button-slider {
+    
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: var(--gradient-button-main);
+
+}
+
+.button-slider:hover {
+    color: #f4b25b;
+    transition: color var(--animation);
+}
+
+.button-slider:active{
+    position: relative;
+    top: 1px;
+}
