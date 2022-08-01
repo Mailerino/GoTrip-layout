@@ -43,6 +43,7 @@
     top: -175px;
     right: -130px;
 
+    pointer-events: none;
 
     max-width: unset; /* Inside reset.css max-width: 100% */
     width: 894px;

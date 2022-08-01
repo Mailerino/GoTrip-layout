@@ -1,10 +1,20 @@
-.button-main {
+.button-main,
+.button-secondary {
     display: inline-block;
+    color: var(--color-white) !important;
+}
+
+.button-secondary {
+    font-family: var(--font-family-poppins-m);
+    font-size: 15px;
+    border-radius: 100px;
+}
+
+.button-main {
     padding: 26px 48px;
 
     border-radius: 28px;
     background: var(--gradient-button-main);
-    color: var(--color-white);
 
     font-size: 25px;
     font-family: var(--font-family-poppins-sb);
@@ -12,20 +22,13 @@
 
 
 .button-secondary {
-    display: inline-block;
     padding: 13px 44px;
-    
-    border-radius: 100px;
     background: var(--gradient-button-main);
-    color: var(--color-white);
-    
-    font-size: 15px;
-    font-family: var(--font-family-poppins-m);
 }
 
 .button-main:hover,
 .button-secondary:hover {
-    color: #f4b25b;
+    color: #f4b25b !important;
     transition: color var(--animation);
 }
 
@@ -50,11 +53,10 @@
 }
 
 .button-slider:hover {
-    color: #f4b25b;
+    color: #f4b25b !important;
     transition: color var(--animation);
 }
 
 .button-slider:active{
-    position: relative;
-    top: 1px;
+    top: 50.5%;
 }

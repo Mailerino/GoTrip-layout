@@ -13,8 +13,8 @@
 }
 
 .destinations__slider {
-  width: 1110px;
-  flex-shrink: 0;
+    width: 1110px;
+    flex-shrink: 0;
 }
 
 .destinations__title {
@@ -44,7 +44,8 @@
 /* Slider */
 
 .slider {
-  position: relative;
+    position: relative;
+    height: 456px;
 }
 
 .slider__item {
@@ -68,18 +69,18 @@
     transform: rotate(180deg);
 }
 
+.slider__button--prev,
+.slider__button--next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
 .slider__button--prev {
-  position: absolute;
-  top: 50%;
   left: -27px;
-  transform: translateY(-50%);
-  z-index: 1;
 }
 
 .slider__button--next {
-  position: absolute;
-  top: 50%;
   right: -27px;
-  transform: translateY(-50%);
-  z-index: 1;
 }

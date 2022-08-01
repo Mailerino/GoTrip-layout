@@ -10,8 +10,8 @@
     --color-gray-medium: rgba(255, 255, 255, 0.5);
     --color-gray-dark: rgba(255, 255, 255, 0.25);
 
-
     --color-orange: #FF794E;
+    --color-orange-lighter: #FF7C4E;
 
     --gradient-header: linear-gradient(132.05deg, #428E5F -17.38%, #112120 78.4%), #204434;
     --gradient-button-main: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%), #FFFFFF;

@@ -1,0 +1,26 @@
+.footer {
+    padding: 56px 0 74px;
+}
+
+.footer a {
+    color: var(--color-black-lighter);
+}
+
+.nav__logo--footer a {
+    color: var(--color-orange-lighter) !important;
+}
+
+.nav__links.nav__links--footer a.active::after,
+.nav__links.nav__links--footer a:hover::after {
+    display: none;
+}
+
+.nav__links.nav__links--footer a.active,
+.nav__links.nav__links--footer a:hover {
+    color: var(--color-orange);
+    transition: color var(--animation);
+}
+
+.nav__login.nav__login--footer a.button-secondary {
+    background: var(--gradient-button-footer);
+}
