@@ -50,6 +50,21 @@
     height: 940px;
 }
 
+.header__image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -80px;
+    
+    width: 830px;
+    height: 622px;
+    
+    background-image: url(./../images/background/header-elements.svg);
+    background-repeat: no-repeat;
+
+    pointer-events: none;
+}
+
 /* Header Navigation */
 
 .logo{
