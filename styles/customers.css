@@ -61,3 +61,110 @@
     display: flex;
     column-gap: 15px;
 }
+
+/* Responsive */
+
+@media (max-width: 999px) {
+    .customers {
+        padding: 80px 0 100px;
+    }
+    .customers__title {
+        font-size: 35px;
+        margin-bottom: 25px;
+    }
+    .review__client {
+        margin-bottom: 40px;
+    }
+    .review__client-avatar {
+        width: 104px;
+        height: 104px;
+    }
+    .review__client-desc-name {
+        font-size: 30px;
+    }
+    .review__client-desc-country {
+        font-size: 22px;
+    }
+    .review__text {
+        font-size: 20px;
+    }
+    .review__rating img {
+        width: 45px;
+    }
+}
+
+@media (max-width: 849px) {
+    .customers{
+        padding: 0 0 60px;
+    }
+    .customers__row {
+        flex-direction: column-reverse;
+        row-gap: 60px;
+        align-items: center;
+    }
+    
+    .customers__image img {
+        border-radius: 40px;
+    }
+
+    .customers__title {
+        font-size: 35px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .review__client {
+        margin-bottom: 25px;
+        column-gap: 20px;
+    }
+    .review__client-avatar {
+        width: 100px;
+        height: 100px;
+    }
+    .review__client-desc-name {
+        font-size: 25px;
+    }
+    .review__client-desc-country {
+        font-size: 22px;
+    }
+    .review__text {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .review__rating img {
+        width: 39px;
+        height: auto;
+    }
+
+}
+
+@media (max-width: 399px) {
+    .customers {
+        padding: 20px 0 30px;
+    }
+    .customers__title {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .review__client {
+        margin-bottom: 20px;
+        column-gap: 15px;
+    }
+    .review__client-avatar {
+        width: 70px;
+        height: 70px;
+    }
+    .review__client-desc-name {
+        font-size: 22px;
+    }
+    .review__client-desc-country {
+        font-size: 20px;
+    }
+    .review__text {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .review__rating img {
+        width: 29px;
+        height: auto;
+    }
+}

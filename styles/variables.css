@@ -14,6 +14,7 @@
     --color-orange-lighter: #FF7C4E;
 
     --gradient-header: linear-gradient(132.05deg, #428E5F -17.38%, #112120 78.4%), #204434;
+    --gradient-header-menu: linear-gradient(228.05deg, #428E5F -17.38%, #112120 78.4%), #204434;
     --gradient-button-main: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%), #FFFFFF;
     --gradient-button-footer: linear-gradient(0deg, #FF7C4E, #FF7C4E), #C4C4C4;
 
@@ -31,4 +32,11 @@
 
     --container-width: 1270px;
     --container-padding: 15px;
+
+
+    --menu-animation-time: .1s;
+    --menu-width: 40px;
+    --menu-height: 30px;
+    --menu-line-height: 4px;
+    --menu-color: #FFF;
 }

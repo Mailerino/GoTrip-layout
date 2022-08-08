@@ -24,3 +24,37 @@
 .nav__login.nav__login--footer a.button-secondary {
     background: var(--gradient-button-footer);
 }
+
+/* Responsive */
+
+@media (max-width: 999px) {
+    .nav--footer .nav__login {
+        display: none;
+    }
+    .nav--footer {
+        column-gap: 40px;
+    }
+    .footer {
+        padding: 40px 0 40px;
+    }
+}
+
+@media (max-width: 649px) {
+    .nav__links--footer {
+        column-gap: 40px;
+    }
+}
+
+@media (max-width: 499px) {
+    .nav--footer {
+        flex-direction: column-reverse;
+        row-gap: 40px;
+    }
+}
+
+@media (max-width: 399px) {
+    .nav__links--footer {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}

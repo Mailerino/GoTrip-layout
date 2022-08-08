@@ -60,3 +60,12 @@
 .button-slider:active{
     top: 50.5%;
 }
+
+
+@media (max-width: 849px) {
+    .header__btn.button-main {
+        padding: 18px 33px;
+        border-radius: 20px;
+        font-size: 20px;
+    }
+}
